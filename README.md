@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # OctConv
 A PyTorch Implementation for Drop an Octave
 
@@ -52,7 +54,7 @@ Note that `OctReLU` and `OctMaxPool2d` are wrappers for `nn.ReLU` and `nn.MaxPoo
 ## Reference
 MXNet implementation by [terrychenism](https://github.com/terrychenism) [here](https://github.com/terrychenism/OctaveConv)
 
-Another pytorch implementation by [lxtGH](https://github.com/lxtGH) [here](https://github.com/lxtGH/OctaveConv_pytorch)
+Another PyTorch implementation by [lxtGH](https://github.com/lxtGH) [here](https://github.com/lxtGH/OctaveConv_pytorch)
 
 ## License
 This repo is MIT licensed.
