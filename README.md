@@ -3,7 +3,7 @@ A PyTorch Implementation for Drop an Octave
 
 This repository contains a [PyTorch](https://github.com/pytorch/pytorch) implementation of the paper [Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution](https://arxiv.org/abs/1904.05049). 
 
-![](fig/octave_conv.png)
+![](figs/octave_conv.png)
 
 ## Usage
 You can pretty much use the `OctConv2d` layers to replace your normal `nn.Conv2d` layers, with a small difference. There are three types of Octave Convolutions, `'first'`, `'regular'`, and `'last'`. The "First" type takes a tensor input and returns a tuple of two tensors. The "Regular" type takes the tuple and outputs the same spec of tuple. The "Last" type takes the tuple and outputs one tensor.
