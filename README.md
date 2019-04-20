@@ -44,3 +44,14 @@ class OctCNN(nn.Module):
 ```
 
 Note that `OctReLU` and `OctMaxPool2d` are wrappers for `nn.ReLU` and `nn.MaxPool2d`, so that you can use `OctConv2d` layer with `nn.Sequential`.
+
+## To Do List
+- [ ] group/dilation/padding congruency
+- [ ] Added ResNets
+
+## Reference
+MXNet implementation by [terrychenism](https://github.com/terrychenism) [here](https://github.com/terrychenism/OctaveConv)
+Another pytorch implementation by [lxtGH](https://github.com/lxtGH) [here](https://github.com/lxtGH/OctaveConv_pytorch)
+
+## License
+This repo is MIT licensed.
