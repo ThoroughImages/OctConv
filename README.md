@@ -43,4 +43,4 @@ class OctCNN(nn.Module):
         return x
 ```
 
-Note that `OctReLU()` and `OctMaxPool2d()` are wrappers for `nn.ReLU()` and `MaxPool2d()`, so that you can use `OctConv2d()` layer with `nn.Sequential()`.
+Note that `OctReLU` and `OctMaxPool2d` are wrappers for `nn.ReLU` and `nn.MaxPool2d`, so that you can use `OctConv2d` layer with `nn.Sequential`.
