@@ -51,6 +51,7 @@ Note that `OctReLU` and `OctMaxPool2d` are wrappers for `nn.ReLU` and `nn.MaxPoo
 
 ## Reference
 MXNet implementation by [terrychenism](https://github.com/terrychenism) [here](https://github.com/terrychenism/OctaveConv)
+
 Another pytorch implementation by [lxtGH](https://github.com/lxtGH) [here](https://github.com/lxtGH/OctaveConv_pytorch)
 
 ## License
